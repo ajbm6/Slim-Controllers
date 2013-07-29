@@ -16,7 +16,7 @@ $blog->get('/posts', funnction () {
 
 $people = $app->controller_factory;
 $people->get('/', function () {
-    return 'Where my people's at?';
+    return "Where my people's at?";
 });
 
 $app->mount('/blog', $blog);
